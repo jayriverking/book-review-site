@@ -1,0 +1,19 @@
+/*  - Center all the text of the main content (excluding content in header and footer elements)
+    - Round the corners of the site maintainer image */
+
+* {
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+    color: cadetblue;
+}
+.footer {
+    text-align: right;
+}
+
+img {
+    border-radius: 25%;
+    background-color: antiquewhite;
+}
